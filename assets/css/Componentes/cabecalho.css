@@ -1,0 +1,17 @@
+.cabecalho {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.cabecalho .logo {
+  height: 250px;
+  margin-left: 15px;
+  margin-right: 350px;
+  width: 250px;
+}
+.cabecalho .titulo {
+  color: white;
+  font-family: "Island Moments", cursive;
+  margin-right: 450px;
+  text-align: center;
+}/*# sourceMappingURL=cabecalho.css.map */
