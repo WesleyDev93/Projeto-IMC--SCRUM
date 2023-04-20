@@ -1,7 +1,10 @@
+@import './funcoes.scss';
+
 .cabecalho {
        align-items: center;
        display: flex;
        justify-content: center;
+
     .logo {
         height: 250px;
         margin-left: 15px;
@@ -11,8 +14,10 @@
     .titulo {
     
         color: white;
-        font-family: 'Island Moments', cursive;
+        @include textoPadrao;
         margin-right: 450px;
+        position: relative;
+        right: 80px;
         text-align: center;
 
     }

@@ -1,9 +1,33 @@
-.corpo {
+@import './funcoes.scss';
 
+.corpo {
+   
     background-color:  #67b0b4;
 
     .fita{
 
-        margin-left: 0px;
+        width: 250px;
+    }
+
+    .subtitulo {
+
+        
+        color: white;
+        text-align: center;
+    }
+
+    .img {
+       
+        
+
+    }
+
+    .textos {
+
+        @include textoPadrao;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
     }
 }

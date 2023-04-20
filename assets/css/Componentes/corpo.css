@@ -2,5 +2,16 @@
   background-color: #67b0b4;
 }
 .corpo .fita {
-  margin-left: 0px;
+  width: 250px;
+}
+.corpo .subtitulo {
+  color: white;
+  text-align: center;
+}
+.corpo .textos {
+  font-family: "Island Moments", cursive;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
 }/*# sourceMappingURL=corpo.css.map */
