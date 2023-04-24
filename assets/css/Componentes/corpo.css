@@ -51,7 +51,8 @@
   left: 200px;
   margin-top: 50px;
   position: relative;
-  width: 40%;
+  padding: 20px;
+  width: 50%;
 }
 .corpo .resultadoNumero {
   margin-left: 30px;
