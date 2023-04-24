@@ -81,4 +81,20 @@
         
         
     }
-}
+    .tabelacomparar {
+
+
+        bottom: 70px;
+        left: 400px;
+        position: relative;
+        
+    
+   }
+   .Rodape {
+
+    @include textoPadrao;
+    text-align: center;
+    
+   }
+
+    }
