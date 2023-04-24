@@ -1,25 +1,35 @@
 // Calculo do IMC 
 
-const Altura = parseFloat(document.querySelector ('#altura').value);
 
-const Peso = parseFloat (document.querySelector ('#peso').value);
 
 const botao = document.querySelector ('.botaoCalculo')
 
 const resultado = document.querySelector ('.resultadoNumero');
 
 
-console.log (Peso,Altura);
+
 
 // Ação do Botão
     
     botao.addEventListener ("click", () => {
-           
+
+
+         const Altura = parseFloat(document.getElementById ('altura').value);
+
+         const Peso = parseFloat (document.getElementById ('peso').value);     
+
          const IMC = Peso / (Altura * Altura);
 
-         resultado.innerHTML = IMC; 
+         resultado.innerHTML = IMC.toFixed (2); 
+
+         
+
+         console.log (Altura,Peso)
          
     });
+
+
+
  
 
 
